@@ -68,9 +68,9 @@ function login(){
         // save current user
         localStorage.setItem("currentUser", JSON.stringify(user))
 
-        setTimeout(()=>{
-            window.location.href = "dashboard.html"
-        }, 1500)
+        // setTimeout(()=>{
+        //     window.location.href = "dashboard.html"
+        // }, 1500)
 
     }else{
         Swal.fire("Error", "Invalid email or password", "error")
